@@ -4,7 +4,13 @@
 
 
 import requests
+import urllib3
 import yaml
+
+# the parnas1972 paper is throwing cert errors and I can't find another link for it.
+# so requesting with verify=False and disabling warnings for now
+urllib3.disable_warnings()
+
 
 HEADERS = {'User-Agent': 'My User Agent 1.0'}
 
@@ -19,7 +25,18 @@ exit_code = 0
 for paper in papers:
     ref = paper['author'].replace(',', '').split(' ')[0] + str(paper['year'])
     print(f'{ref}...', end='', flush=True)
-    response = requests.head(paper['link'], headers=HEADERS)
+
+    if '.acm.org/' in paper['link']:
+        # the acm library (which has the majority of the paper links)
+        # is now denying requests without javascript enabled
+        # I'm skipping them since it's better to assume they work and check the rest
+        # than removing this script or trying to find alternative sources for all the papers
+        print('skipping ACM')
+        continue
+
+    response = requests.head(paper['link'], headers=HEADERS, verify=False)
+    if response.status_code == 405:
+        response = requests.get(paper['link'], headers=HEADERS, verify=False)
     if response.ok:
         print('ok')
     else:

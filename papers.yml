@@ -23,7 +23,7 @@
     - title: Program development by stepwise refinement
       author: Wirth
       year: 1971
-      link: http://sunnyday.mit.edu/16.355/wirth-refinement.html
+      link: https://dl.acm.org/doi/pdf/10.1145/362575.362577
     - title: The paradigms of programming
       author: Floyd
       year: 1979
@@ -67,7 +67,7 @@
 - title: A Method for the Construction of Minimum-Redundancy Codes
   author: Huffman
   year: 1952
-  link: https://www.ic.tu-berlin.de/fileadmin/fg121/Source-Coding_WS12/selected-readings/10_04051119.pdf
+  link: http://compression.ru/download/articles/huff/huffman_1952_minimum-redundancy-codes.pdf
   topics: [Information Theory]
   related:
     - title: Fifty Years of Shannon Theory
@@ -88,7 +88,7 @@
     - title: Quicksort
       author: Hoare
       year: 1962
-      link: https://academic.oup.com/comjnl/article-pdf/5/1/10/1111445/050010.pdf
+      link: https://dl.acm.org/doi/pdf/10.5555/63445.C1104357
     - title: "Programming pearls: Algorithm design techniques"
       author: Bentley
       year: 1984
@@ -104,7 +104,7 @@
     - title: A Note on Two Problems in Connexion with Graphs
       author: Dijkstra
       year: 1959
-      link: http://www-m3.ma.tum.de/foswiki/pub/MN0506/WebHome/dijkstra.pdf
+      link: https://jmvidal.cse.sc.edu/library/dijkstra59a.pdf
     - title: The Ubiquitous B-Tree
       author: Comer
       year: 1979
@@ -112,7 +112,7 @@
     - title: Space/Time Trade-offs in Hash Coding with Allowable Errors
       author: Bloom
       year: 1970
-      link: https://cs.pwr.edu.pl/cichon/2021_22_a/BigData/Bloom.pdf
+      link: https://dl.acm.org/doi/pdf/10.1145/362686.362692
     - title: Making data structures persistent
       author: Driscoll et al
       year: 1986
@@ -132,10 +132,6 @@
       author: Parnas
       year: 1972
       link: https://cseweb.ucsd.edu/~wgg/CSE218/Parnas-IFIP71-information-distribution.PDF
-    - title: Software Aging
-      author: Parnas
-      year: 1994
-      link: https://www.cs.drexel.edu/~yfcai/CS451/RequiredReadings/SoftwareAging.pdf
     - title: Designing Software for Ease of Extension and Contraction
       author: Parnas
       year: 1979
@@ -148,12 +144,16 @@
       author: Jackson
       year: 2015
       link: https://groups.csail.mit.edu/sdg/pubs/2015/concept-essay.pdf
+    - title: Programming with Abstract Data Types
+      author: Liskov, Zilles
+      year: 1974
+      link: https://dl.acm.org/doi/pdf/10.1145/942572.807045
 
-- title: Programming with Abstract Data Types
-  author: Liskov, Zilles
-  year: 1974
-  link: https://dl.acm.org/doi/pdf/10.1145/942572.807045
-  topics: [Abstract Data Types, Object-Oriented Programming]
+- title: "Programming Paradigms for Dummies: What Every Programmer Should Know"
+  author: Van Roy
+  year: 2012
+  link: https://webperso.info.ucl.ac.be/~pvr/VanRoyChapter.pdf
+  topics: [Programming Paradigms]
   related:
     - title: On understanding types, data abstraction, and polymorphism
       author: Cardelli, Wegner
@@ -169,15 +169,12 @@
       link: https://dl.acm.org/doi/pdf/10.1145/512760.512762
     - title: A Theory of Type Polymorphism in Programming
       author: Milner
-      year:  1978
+      year: 1978
       link: https://homepages.inf.ed.ac.uk/wadler/papers/papers-we-love/milner-type-polymorphism.pdf
-
-- title: Why Functional Programming Matters
-  author: Hughes
-  year: 1990
-  link: https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf
-  topics: [Functional Programming]
-  related:
+    - title: Why Functional Programming Matters
+      author: Hughes
+      year: 1990
+      link: https://www.cs.utexas.edu/~shmat/courses/cs345/whyfp.pdf
     - title: Can Programming Be Liberated from the von Neumann Style?
       author: Backus
       year: 1978
@@ -193,7 +190,7 @@
     - title: "QuickCheck: A Lightweight Tool for Random Testing of Haskell Programs"
       author: Claessen, Hughes
       year: 2000
-      link: https://www.cs.tufts.edu/~nr/cs257/archive/john-hughes/quick.pdf
+      link: https://dl.acm.org/doi/pdf/10.1145/351240.351266
     - title: The essence of functional programming
       author: Wadler
       year: 1992
@@ -232,7 +229,7 @@
     - title: A Brief History of Just-In-Time
       author: Aycock
       year: 2003
-      link: http://eecs.ucf.edu/~dcm/Teaching/COT4810-Spring2011/Literature/JustInTimeCompilation.pdf
+      link: https://user.it.uu.se/~kostis/Teaching/KT2-04/jit_survey.pdf
     - title: The Essence of Compiling with Continuations
       author: Flanagan et al
       year: 1993
@@ -246,7 +243,6 @@
       year: 2004
       link: https://courses.cs.washington.edu/courses/cse590p/05au/p50-bacon.pdf
 
-
 - title: "No Silver Bullet: Essence and Accidents of Software Engineering"
   author: Brooks
   year: 1987
@@ -256,7 +252,7 @@
     - title: The Mythical Man Month
       author: Brooks
       year: 1975
-      link: https://www.cs.drexel.edu/~yfcai/CS451/RequiredReadings/MythicalManMonth.pdf
+      link: https://www.cs.virginia.edu/~evans/greatworks/mythical.pdf
     - title: How do committees invent?
       author: Conway
       year: 1968
@@ -277,6 +273,14 @@
       author: Moseley, Marks
       year: 2006
       link: http://curtclifton.net/papers/MoseleyMarks06a.pdf
+    - title: Software Aging
+      author: Parnas
+      year: 1994
+      link: https://dl.acm.org/doi/pdf/10.5555/257734.257788
+    - title: Laws of Software Evolution Revisited
+      author: Lehman
+      year: 1997
+      link: https://www.rose-hulman.edu/Class/csse/csse490/cs490-const-and-evol/LawsOfSoftwareEvolutionRevisited.pdf
 
 - title: Communicating sequential processes
   author: Hoare
@@ -291,7 +295,7 @@
     - title: On the Duality of Operating System Structures
       author: Lauer, Needham
       year: 1978
-      link: https://courses.cs.vt.edu/~cs5204/fall07-gback/papers/p3-lauer.pdf
+      link: https://dl.acm.org/doi/pdf/10.1145/850657.850658
     - title: "Monitors: An operating system structuring concept"
       author: Hoare
       year: 1974
@@ -311,6 +315,10 @@
       author: Dijkstra
       year: 1968
       link: https://www.eecs.ucf.edu/~eurip/papers/dijkstra-the68.pdf
+    - title: The nucleus of a multiprogramming system
+      author: Hansen
+      year: 1970
+      link: http://www.brinch-hansen.net/papers/1970a.pdf
     - title: An Experimental Time-Sharing System
       author: Corbató, Merwin Daggett, Daley
       year: 1962
@@ -337,7 +345,7 @@
     - title: Granularity of Locks and Degrees of Consistency in a Shared Data Base
       author: Gray et al
       year: 1975
-      link: http://web.eecs.umich.edu/~jag/eecs584/papers/lock-granularity.pdf
+      link: https://www.cs.cmu.edu/~natassa/courses/15-721/papers/GrayLocks.pdf
     - title: "The Transaction Concept: Virtues and Limitations"
       author: Gray
       year: 1981
@@ -364,7 +372,7 @@
     - title: "Ethernet: Distributed packet switching for local computer networks"
       author: Metcalfe, Boggs
       year: 1978
-      link: https://ethernethistory.typepad.com/papers/EthernetPaper.pdf
+      link: https://dl.acm.org/doi/pdf/10.1145/360248.360253
     - title: End-To-End Arguments in System Design
       author: Saltzer, Reed, Clark
       year: 1984
@@ -486,7 +494,7 @@
 - title: The anatomy of a large-scale hypertextual Web search engine
   author: Brin, Page
   year: 1998
-  link: https://snap.stanford.edu/class/cs224w-readings/Brin98Anatomy.pdf
+  link: https://storage.googleapis.com/gweb-research2023-media/pubtools/pdf/334.pdf
   topics: [Information Retrieval, World-Wide Web]
   related:
     - title: A Statistical Interpretation of Term Specificity in Retrieval
@@ -496,7 +504,7 @@
     - title: "The PageRank Citation Ranking: Bringing Order to the Web"
       author: Page, Brin, Motwani
       year: 1998
-      link: http://www.eecs.harvard.edu/~michaelm/CS222/pagerank.pdf
+      link: https://www.cis.upenn.edu/~mkearns/teaching/NetworkedLife/pagerank.pdf
     - title: "World-Wide Web: Information Universe"
       author: Berners-Lee et al
       year: 1992
@@ -511,16 +519,16 @@
     - title: The Google File System
       author: Ghemawat, Gobioff, Leung
       year: 2003
-      link: https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf
+      link: https://storage.googleapis.com/gweb-research2023-media/pubtools/pdf/035fc972c796d33122033a0614bc94cff1527999.pdf
     - title: "MapReduce: Simplified Data Processing on Large Clusters"
       author: Dean, Ghemawat
       year: 2004
-      link: https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
+      link: https://storage.googleapis.com/gweb-research2023-media/pubtools/pdf/16cb30b4b92fd4989b8619a61752a2387c6dd474.pdf
     - title: "Bigtable: A Distributed Storage System for Structured Data"
       author: Chang et al
       year: 2006
-      link: https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf
-    - title: "CAP Twelve Years Later: How the \"Rules\" Have Changed"
+      link: https://storage.googleapis.com/gweb-research2023-media/pubtools/pdf/68a74a85e1662fe02ff3967497f31fda7f32225c.pdf
+    - title: 'CAP Twelve Years Later: How the "Rules" Have Changed'
       author: Brewer
       year: 2012
       link: https://sites.cs.ucsb.edu/~rich/class/cs293b-cloud/papers/brewer-cap.pdf
@@ -535,7 +543,7 @@
     - title: The Hadoop Distributed File System
       author: Shvachko et al
       year: 2010
-      link: https://storageconference.us/2010/Papers/MSST/Shvachko.pdf
+      link: https://cse.buffalo.edu/~okennedy/courses/papers/hdfs.pdf
     - title: "Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases"
       author: Verbitski et al
       year: 2017
@@ -587,12 +595,36 @@
   author: Nakamoto
   year: 2008
   link: https://bitcoin.org/bitcoin.pdf
-  topics: [Crytpocurrencies]
+  topics: [Decentralized Distributed Systems, Peer-to-peer systems]
   related:
+    - title: "Operational transformation in real-time group editors: issues, algorithms, and achievements"
+      author: Sun, Ellis
+      year: 1998
+      link: https://dl.acm.org/doi/pdf/10.1145/289444.289469
+    - title: Conflict-free Replicated Data Types
+      author: Shapiro et al
+      year: 2011
+      link: https://pages.lip6.fr/Marc.Shapiro/papers/RR-7687.pdf
+    - title: "Incentives Build Robustness in BitTorrent"
+      author: Cohen
+      link: https://www.bittorrent.org/bittorrentecon.pdf
+      year: 2003
+    - title: "IPFS - Content Addressed, Versioned, P2P File System"
+      year: 2014
+      author: Benet
+      link: https://raw.githubusercontent.com/ipfs/papers/master/ipfs-cap2pfs/ipfs-p2p-file-system.pdf
+    - title: "Kademlia: A Peer-to-Peer Information System Based on the XOR Metric"
+      link: https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf
+      year: 2002
+      author: Maymounkov, Mazières
+    - title: "Local-First Software: You Own Your Data, in spite of the Cloud"
+      year: 2019
+      author: Kleppmann et al
+      link: https://www.inkandswitch.com/local-first/static/local-first.pdf
     - title: "Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform"
       author: Buterin
       year: 2014
-      link: https://ethereum.org/669c9e2e2027310b6b3cdce6e1c52962/Ethereum_Whitepaper_-_Buterin_2014.pdf
+      link: https://ethereum.org/content/whitepaper/whitepaper-pdf/Ethereum_Whitepaper_-_Buterin_2014.pdf
 
 - title: A Few Useful Things to Know About Machine Learning
   author: Domingos
@@ -607,11 +639,12 @@
     - title: "Statistical Modeling: The Two Cultures"
       author: Breiman
       year: 2001
-      link: http://www2.math.uu.se/~thulin/mm/breiman.pdf
+      # link: http://www2.math.uu.se/~thulin/mm/breiman.pdf
+      link: https://projecteuclid.org/journalArticle/Download?urlId=10.1214%2Fss%2F1009213726
     - title: The Unreasonable Effectiveness of Data
       author: Halevy, Norvig, Pereira
       year: 2009
-      link: https://research.google/pubs/pub35179.pdf
+      link: https://storage.googleapis.com/gweb-research2023-media/pubtools/pdf/35179.pdf
     - title: Attention Is All You Need
       author: Vaswani et al
       year: 2017
